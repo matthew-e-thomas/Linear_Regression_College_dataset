@@ -1,6 +1,6 @@
 library(ISLR)
 data(College)
-#Create new variable for acceptance rate
+#Testing Git Changes
 #Check acceptance rate against different regressors
 College$AccRate <- College$Accept/College$Apps
 College$Enroll.Rate <- College$Enroll / College$Accept
